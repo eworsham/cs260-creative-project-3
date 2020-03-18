@@ -11,7 +11,7 @@
     </div>
   </div>
   <router-view />
-  <div id="footer"><a href="https://github.com/BYU-CS-260-Winter-2020/lab-3b-grocery-store-eworsham" target="_blank">Github Repository</a></div>
+  <div id="footer"><a href="https://github.com/eworsham/cs260-creative-project-3" target="_blank">Github Repository</a></div>
 </div>
 </template>
 

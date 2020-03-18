@@ -1,11 +1,18 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+<div id="app">
+  <div id="nav">
+    <div id="brand">
+      <h1>The Event Place</h1>
     </div>
-    <router-view/>
+    <div id="links">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/schedule">Schedule</router-link>
+    </div>
   </div>
+  <router-view />
+  <div id="footer"><a href="https://github.com/BYU-CS-260-Winter-2020/lab-3b-grocery-store-eworsham" target="_blank">Github Repository</a></div>
+</div>
 </template>
 
 <style>

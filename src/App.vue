@@ -24,10 +24,6 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
 #nav a {
   font-weight: bold;
   color: #2c3e50;
@@ -35,5 +31,22 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#brand {
+  padding: 1em 0em;
+  background-color: #D6EFFF;
+}
+
+#links {
+  margin: .5em 0em;
+  padding: .5em 0em;
+  background-color: #D6EFFF;
+}
+
+#footer {
+  padding: 2em 1.5em;
+  text-align: right;
+  background-color: #D6EFFF;
 }
 </style>

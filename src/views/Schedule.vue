@@ -1,6 +1,20 @@
 <template>
-<div class="schedule">
-  <h1>Schedule</h1>
-  <p>Page content</p>
+<div>
+  <eventList :events="events" />
 </div>
 </template>
+
+<script>
+import eventList from "../components/eventList.vue"
+export default {
+  name: 'Schedule',
+  components: {
+    eventList
+  },
+  computed: {
+    events() {
+      return this.$root.$data.events;
+    }
+  }
+}
+</script>

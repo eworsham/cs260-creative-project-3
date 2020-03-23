@@ -6,11 +6,8 @@ import mock from './mock-data.js'
 Vue.config.productionTip = false
 
 let data = {
-  products: mock,
-  events: [],
-  getEvents() {
-    return this.events;
-  }
+  events: mock,
+  eventArray: [],
 }
 
 new Vue({
